@@ -1,0 +1,24 @@
+h1 {
+	color: green;
+	text-align: center;
+}
+
+p {
+	font-size: 130%;
+}
+
+#intro {
+	background-color: pink;
+}
+
+.first {
+	font-size: 200%;
+}
+
+#intro .first {
+	color: blue;
+}
+
+#intro .first em {
+	color: red;
+}
