@@ -1,24 +1,22 @@
-h1 {
-	color: green;
-	text-align: center;
-}
-
-p {
-	font-size: 130%;
-}
-
-#intro {
-	background-color: pink;
-}
-
-.first {
-	font-size: 200%;
-}
-
-#intro .first {
-	color: blue;
-}
-
-#intro .first em {
-	color: red;
-}
+div {background-color: black;
+	color: white;}
+	
+	.image-container {
+		background-color: gray;
+		display: inline-block;
+		text-align: center;
+		margin: 20px;
+	}
+	
+	.image-container img {
+		max-width: 100%;
+		height: auto;
+	}
+	.image-container p {
+		margin-top: 10px;
+		font-size: 16px;
+	}
+	.image-container a{
+		color: white;
+		text-decoration: none;
+	}
